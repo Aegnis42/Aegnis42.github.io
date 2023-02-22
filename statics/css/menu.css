@@ -14,29 +14,6 @@ header > nav > img {
   width: 70%;
 }
 
-header > section {
-  background-color: white;
-  background-image: url(https://www.ikea.com/ext/ingkadam/m/5834b9765023c162/original/PH175136.jpg?f=sg);
-  background-repeat: no-repeat;
-  background-size: 140%;
-  background-position: center;
-  height: 250px;
-  padding: 55px 20px 0px 20px;
-}
-
-header h1, header h2 {
-  background-color: rgba(255, 255, 255, 0.625);
-  font-weight: 500;
-  font-size: 16px;
-  padding: 5px;  
-}
-
-header h2 {
-  width: 65%;
-  margin: 0;
-}
-
-
 .bigMenuBurger {
   height: 100%;
   width: 250px;
@@ -51,30 +28,32 @@ header h2 {
 
 .bigMenuBurger ul {
   list-style-type: none;
-  padding: 0;
   margin: 0;
+  padding: 0;
 }
 
-/* Sidenav menu links */
 .bigMenuBurger a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 20px;
   color: #818181;
-  display: block;
   transition: 0.3s;
+  display: block;
+}
+
+.bigMenuBurger > ul > li:nth-of-type(3) > a, .bigMenuBurger > ul > li:nth-of-type(4) > a  {
+  display: flex;
+  flex-direction: row-reverse;
 }
 
 .bigMenuBurger a:hover {
   color: #111;
 }
 
-/* Active class */
 .bigMenuBurger.active {
   left: 0;
 }
 
-/* Close btn */
 .bigMenuBurger.close {
   position: absolute;
   top: 0;
@@ -82,7 +61,7 @@ header h2 {
   font-size: 36px;
 }
 
-.burger-icon span {
+.burger-icon span { /*cree le logo menu burger*/
   display: block;
   width: 35px;
   height: 5px;
