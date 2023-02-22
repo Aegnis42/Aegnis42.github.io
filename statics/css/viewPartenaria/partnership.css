@@ -1,0 +1,23 @@
+#partnershipPresentation{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+#introduction , #videoPresentation{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+div > iframe{
+    width: 45vw;
+    height: 20vh;
+    margin-bottom: 5vh;
+}
+div > iframe:first-child{
+    margin: 0 15px 5vh 0;
+} 
+article > iframe{
+    width: 95vw;
+    height: 35vh;
+}
+
