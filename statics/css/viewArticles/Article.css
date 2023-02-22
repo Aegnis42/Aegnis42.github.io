@@ -1,9 +1,13 @@
-main{
+section{
+    flex-direction: column;
+}
+.presentationArticle{
     display: flex;
 }
-.piceDeLegoJauneVerticale{
+.lesArticles{
+    width: 320px;
     height: 300px;
 }
-section{
-    display: flex;
+.pieceDeLegoJauneVerticale{
+    height: 325px;
 }
