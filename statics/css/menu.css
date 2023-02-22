@@ -1,5 +1,6 @@
 * {
   margin: auto;
+  font-family: 'Noto Sans', sans-serif;
 }
 
 header > nav {
@@ -12,6 +13,29 @@ header > nav > img {
   height: auto;
   width: 70%;
 }
+
+header > section {
+  background-color: white;
+  background-image: url(https://www.ikea.com/ext/ingkadam/m/5834b9765023c162/original/PH175136.jpg?f=sg);
+  background-repeat: no-repeat;
+  background-size: 140%;
+  background-position: center;
+  height: 250px;
+  padding: 55px 20px 0px 20px;
+}
+
+header h1, header h2 {
+  background-color: rgba(255, 255, 255, 0.625);
+  font-weight: 500;
+  font-size: 16px;
+  padding: 5px;  
+}
+
+header h2 {
+  width: 65%;
+  margin: 0;
+}
+
 
 .bigMenuBurger {
   height: 100%;
@@ -66,19 +90,6 @@ header > nav > img {
   margin: 6px 0;
 }
 
-
-header > section {
-  background-color: white;
-  background-image: url(https://www.ikea.com/ext/ingkadam/m/5834b9765023c162/original/PH175136.jpg?f=sg);
-  background-repeat: no-repeat;
-  background-size: 120%;
-  height: 250px;
-  
-}
-
-header h1, header h2 {
-  background-color: rgba(255, 255, 255, 0.592);
-}
 
 
 
