@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+body{
+    
+}
+=======
 section{
     flex-direction: column;
 }
@@ -11,3 +16,4 @@ section{
 .pieceDeLegoJauneVerticale{
     height: 325px;
 }
+>>>>>>> b32cf1fbcc2aea0c8d29a70da7670514a49524f9
