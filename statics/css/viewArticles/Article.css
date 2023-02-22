@@ -1,3 +1,19 @@
+<<<<<<< HEAD
 body{
     
 }
+=======
+section{
+    flex-direction: column;
+}
+.presentationArticle{
+    display: flex;
+}
+.lesArticles{
+    width: 320px;
+    height: 300px;
+}
+.pieceDeLegoJauneVerticale{
+    height: 325px;
+}
+>>>>>>> b32cf1fbcc2aea0c8d29a70da7670514a49524f9
