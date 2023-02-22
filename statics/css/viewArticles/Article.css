@@ -1,0 +1,9 @@
+main{
+    display: flex;
+}
+.piceDeLegoJauneVerticale{
+    height: 300px;
+}
+section{
+    display: flex;
+}
