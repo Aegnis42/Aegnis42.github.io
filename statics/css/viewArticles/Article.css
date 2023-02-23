@@ -12,3 +12,19 @@ section{
     height: 325px;
 }
 
+.boutonLegoFlecheDroit{
+    width: 70px;
+}
+a{
+    text-decoration: none;
+}
+h4{
+    font-family: 'Noto Sans', sans-serif;
+    color: black;
+    font-weight: bolder;
+}
+p{
+    font-family: 'Noto Sans', sans-serif;
+    color: black;
+}
+
