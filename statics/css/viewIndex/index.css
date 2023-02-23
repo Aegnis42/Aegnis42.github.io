@@ -42,15 +42,18 @@ header h2 {
 
 
 
-section {
+
+
+#boutonjaune {
+  width: 100%;
   background-position: center;
   flex-wrap: nowrap;
-  margin-left: 380px;
-  gap: 1px;
+  margin-left: auto;
+  gap: 50px;
 }
 
 main > section > p {
-  font-family: 'Noto+Sans',
-  font-size: 50pt;
+  font-family: 'Noto+Sans';
+  font-size: 15pt;
   text-align: center;
 }
