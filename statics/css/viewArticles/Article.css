@@ -27,26 +27,34 @@ p{
     font-family: 'Noto Sans', sans-serif;
     color: black;
 }
-#part_killyan > button > img{
-    width: 50px;
-}
-#part_killyan article{
-    height: 250px;
-    display: flex;
-    justify-content: space-between;
+
+#meilleurs_vente{
     padding-left: 5%;
     padding-right: 5%;
 }
-#part_killyan article > img{
-    height: 110%;
+#meilleurs_vente h3{
+    text-align: center;
+    margin-top: 5vh;
+}
+#meilleurs_vente > img{
+    width: 12vw;
+    margin: 0;
+}
+#meilleurs_vente article{
+    display: flex;
+    justify-content: space-between;
+    height: 46vh;
+}
+#meilleurs_vente article > img{
+    height: 100vw;
+    max-height: 45vh;
     margin: 0px;
 }
-#part_killyan > article a img{
-    max-width: 100%;
+#meilleurs_vente > article a img{
+    width: 100%;
     max-height: 100%;
-    size: auto;
 }
-#part_killyan > article a{
+#meilleurs_vente > article a{
     width: 70%;
     margin: 0px;
     font-family: sans-serif;
