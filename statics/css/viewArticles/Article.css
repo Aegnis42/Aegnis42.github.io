@@ -78,8 +78,32 @@ p{
     font-family: sans-serif;
     text-decoration: none;
 }
+@media screen and (min-width: 900px ) {
+        article{
+            display: flex;
+            flex-direction: row;
+        }
+        .pieceDeLegoVerticale{
+            height: 450px;
+            margin-right: 10px;
+        }
+        .pieceDeLegoRougeVerticale{
+            height: 450px;
+            margin-right: 10px;
+        }
+        .boutonLegoFlecheDroit{
+            margin-left: 10px;
+            width: 50px;
+        }
+        a, .lesArticles{
+            width: 500px;
+            height: 460px;
+            margin-right: 250px;
+        }
+}
 
-@media screen and (min-width : 900px) {
+@media screen and (min-width : 1200px) {
+
     #meilleurs_vente article{
         height: 50vh;
     }
@@ -87,12 +111,5 @@ p{
         width: 100%;
         max-width: max-content;
         max-height: 80%;
-    }
-}
-@media screen and (min-width: 900px ) {
-    article{
-        display: flex;
-        flex-direction: row;
-        width: 95vw;
     }
 }
