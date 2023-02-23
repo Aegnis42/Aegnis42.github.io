@@ -32,7 +32,6 @@ section{
 }
 a{
     text-decoration: none;
-
     color: black;
 }
 h4, .prix{
@@ -53,26 +52,25 @@ p{
 }
 #meilleurs_vente > img{
     width: 12vw;
-    max-width: 125px;
+    max-width: 80px;
     margin: 0;
-
 }
 #meilleurs_vente article{
     display: flex;
     justify-content: space-between;
-    height: 46vh;
+    height: 50vh;
 }
 #meilleurs_vente article > img{
     height: 100vw;
     max-height: 45vh;
     width: 14vw;
-    max-width: 150px;
+    max-width: 80px;
     margin: 0px;
 }
 #meilleurs_vente > article a img{
     width: 100%;
     max-width: max-content;
-    max-height: 100%;
+    max-height: 80%;
 }
 #meilleurs_vente > article a{
     width: 75%;
@@ -81,21 +79,20 @@ p{
     text-decoration: none;
 }
 
+@media screen and (min-width : 900px) {
+    #meilleurs_vente article{
+        height: 50vh;
+    }
+    #meilleurs_vente > article a img{
+        width: 100%;
+        max-width: max-content;
+        max-height: 80%;
+    }
+}
 @media screen and (min-width: 900px ) {
     article{
         display: flex;
         flex-direction: row;
         width: 95vw;
-}
-@media screen and (min-width : 1200px) {
-    #meilleurs_vente article{
-        display: flex;
-        justify-content: space-between;
-        height: 100vh;
-    }
-    #meilleurs_vente > article a img{
-        width: 100%;
-        max-width: max-content;
-        max-height: 88%;
     }
 }
