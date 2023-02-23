@@ -53,3 +53,9 @@ main > section > p {
     background-position: 0 -50px;
   }
 }
+.footer{
+    display: block;
+    background:blue;
+    width: max-content;
+    height:25px;
+  }
