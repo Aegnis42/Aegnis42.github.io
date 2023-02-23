@@ -22,3 +22,35 @@ header h2 {
   width: 65%;
   margin: 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+section {
+  background-position: center;
+  flex-wrap: nowrap;
+  margin-left: 380px;
+  gap: 1px;
+}
+
+main > section > p {
+  font-family: 'Noto+Sans',
+  font-size: 50pt;
+  text-align: center;
+}
