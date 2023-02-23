@@ -1,0 +1,76 @@
+* {
+  margin: auto;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+header > nav {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+header > nav > img {
+  height: auto;
+  width: 70%;
+}
+
+.bigMenuBurger {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: -250px;
+  background-color: #ffffff;
+  padding-top: 60px;
+  transition: left 0.5s ease;
+}
+
+.bigMenuBurger ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.bigMenuBurger a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  transition: 0.3s;
+  display: block;
+}
+
+.bigMenuBurger > ul > li:nth-of-type(3) > a, .bigMenuBurger > ul > li:nth-of-type(4) > a  {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.bigMenuBurger a:hover {
+  color: #111;
+}
+
+.bigMenuBurger.active {
+  left: 0;
+}
+
+.bigMenuBurger.close {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+}
+
+.burger-icon span { /*cree le logo menu burger*/
+  display: block;
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
+}
+
+
+
+
+
+
