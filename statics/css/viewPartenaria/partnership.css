@@ -1,3 +1,7 @@
+*{
+    font-family: 'Noto Sans', sans-serif;
+}
+
 #partnershipPresentation{
     margin: 0;
     padding: 0;
@@ -11,13 +15,42 @@ align-items: center;
 div > iframe{
     width: 45vw;
     height: 20vh;
-    margin-bottom: 5vh;
+    margin-bottom: 0;
 }
 div > iframe:first-child{
-    margin: 0 15px 5vh 0;
+    margin: 0 15px 0 0;
 } 
 article > iframe{
     width: 95vw;
     height: 35vh;
+    margin-bottom: 2vh;
 }
-
+#legoSeparateYellow , #legoSeparateRed{
+    background: url(../../assets/lego1x16_jaune.png);
+    height: 5vh;
+    background-size: 80%;
+    background-position-x: 17vw;
+    background-repeat: no-repeat;
+    margin: 0 0 3vh 0;
+}
+#legoSeparateRed{
+    background: url(../../assets/lego1x16_rouge.png);
+    background-size: 80%;
+    background-position-x: 17vw;
+    background-repeat: no-repeat;
+}
+h2{
+    text-align: center;
+    font-size: 10vw;
+    font-weight: 700;
+    margin-bottom: 1.5vh;
+}
+p{
+    font-size: 4vw;
+    margin-bottom: 2vh;
+    padding: 0 10%;
+}
+div  > img{
+    margin-left: 5vw;
+    width: 10vw;
+}
