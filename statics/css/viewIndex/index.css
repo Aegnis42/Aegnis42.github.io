@@ -13,12 +13,43 @@ header h1, header h2 {
   font-weight: 500;
   font-size: 15px;
   padding: 5px;
-  border-color: 5px blue;
-
 }
 
+header p {
+  background-image: -webkit-linear-gradient(#003399 60%, black 40%);
+  background-size: 100% 50px;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-animation: stripes 6s linear infinite;
+  animation: stripes 2s linear infinite;
+}
 
 header h2 {
   width: 65%;
   margin: 0;
+}
+
+section {
+  background-position: center;
+  flex-wrap: nowrap;
+  margin-left: 380px;
+  gap: 1px;
+}
+
+main > section > p {
+  font-family: 'Noto+Sans',
+  font-size: 50pt;
+  text-align: center;
+}
+
+@-webkit-keyframes stripes {
+  100% {
+    background-position: 0 -50px;
+  }
+}
+@keyframes stripes {
+  100% {
+    background-position: 0 -50px;
+  }
 }

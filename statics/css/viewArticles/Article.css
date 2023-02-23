@@ -1,29 +1,48 @@
+body{
+    max-width: 1440px;
+}
 section{
     flex-direction: column;
 }
 .presentationArticle{
     display: flex;
+    margin: 5vw 0;
+}
+.bordure{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
 }
 .lesArticles{
-    width: 320px;
-    height: 300px;
+    width: 70vw;
+    height: 60vw;
 }
-.pieceDeLegoJauneVerticale{
-    height: 325px;
+.pieceDeLegoVerticale{
+    height: 60vw;
+    margin-right: 2vw;
 }
-
+.pieceDeLegoRougeVerticale{
+    height: 60vw;
+    margin-right: 2vw;
+}
 .boutonLegoFlecheDroit{
-    width: 70px;
+    margin-left: 0.5vw;
+    width: 10vw;
 }
 a{
     text-decoration: none;
-    font-family: 'Noto Sans', sans-serif;
+
     color: black;
 }
 h4, .prix{
+    font-family: 'Noto Sans', sans-serif;
     font-weight: bolder;
 }
-
+p{
+    width: 70vw;
+    font-family: 'Noto Sans', sans-serif;
+}
 
 #meilleurs_vente{
     padding-left: 5%;
@@ -36,6 +55,7 @@ h4, .prix{
     width: 12vw;
     max-width: 125px;
     margin: 0;
+
 }
 #meilleurs_vente article{
     display: flex;
@@ -59,6 +79,13 @@ h4, .prix{
     margin: 0px;
     font-family: sans-serif;
     text-decoration: none;
+}
+
+@media screen and (min-width: 900px ) {
+    article{
+        display: flex;
+        flex-direction: row;
+        width: 95vw;
 }
 @media screen and (min-width : 1200px) {
     #meilleurs_vente article{
