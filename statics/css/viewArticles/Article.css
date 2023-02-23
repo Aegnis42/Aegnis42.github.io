@@ -48,7 +48,11 @@ p{
     padding-right: 5%;
 }
 #meilleurs_vente h3{
+    float: center;
     text-align: center;
+    background-color: rgb(0, 213, 255);
+    width: 30vw;
+    color: #fff;
 }
 #meilleurs_vente > img{
     width: 12vw;
