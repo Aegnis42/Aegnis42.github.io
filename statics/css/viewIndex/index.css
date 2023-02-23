@@ -30,6 +30,19 @@ header h2 {
   margin: 0;
 }
 
+section {
+  background-position: center;
+  flex-wrap: nowrap;
+  margin-left: 380px;
+  gap: 1px;
+}
+
+main > section > p {
+  font-family: 'Noto+Sans',
+  font-size: 50pt;
+  text-align: center;
+}
+
 @-webkit-keyframes stripes {
   100% {
     background-position: 0 -50px;
@@ -40,4 +53,3 @@ header h2 {
     background-position: 0 -50px;
   }
 }
-
