@@ -6,16 +6,19 @@ header > section {
     background-position: center;
     height: 250px;
     padding: 55px 20px 0px 20px;
-  }
+}
   
-  header h1, header h2 {
-    background-color: rgba(255, 255, 255, 0.625);
-    font-weight: 500;
-    font-size: 15px;
-    padding: 5px;  
-  }
-  
-  header h2 {
-    width: 65%;
-    margin: 0;
-  }
+header h1, header h2 {
+  background-color: rgba(255, 255, 255, 0.625);
+  font-weight: 500;
+  font-size: 15px;
+  padding: 5px;
+  border-color: 5px blue;
+
+}
+
+
+header h2 {
+  width: 65%;
+  margin: 0;
+}
