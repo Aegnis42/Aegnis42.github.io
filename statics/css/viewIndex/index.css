@@ -1,11 +1,16 @@
+* {
+  margin: auto;
+  font-family: 'Noto Sans', sans-serif;
+}
+
 header > section {
-    background-color: white;
-    background-image: url(https://www.ikea.com/ext/ingkadam/m/5834b9765023c162/original/PH175136.jpg?f=sg);
-    background-repeat: no-repeat;
-    background-size: 140%;
-    background-position: center;
-    height: 250px;
-    padding: 55px 20px 0px 20px;
+  background-color: white;
+  background-image: url(https://www.ikea.com/ext/ingkadam/m/5834b9765023c162/original/PH175136.jpg?f=sg);
+  background-repeat: no-repeat;
+  background-size: 140%;
+  background-position: center;
+  height: 250px;
+  padding: 55px 20px 0px 20px;
 }
   
 header h1, header h2 {
@@ -30,29 +35,21 @@ header h2 {
   margin: 0;
 }
 
-section {
-  background-position: center;
-  flex-wrap: nowrap;
-  margin-left: 380px;
-  gap: 1px;
+#boutonJaune img {
+  height: auto;
+  width: 50%;
 }
 
-main > section > p {
-  font-family: 'Noto+Sans',
-  font-size: 50pt;
-  text-align: center;
-}
-.footer{
-    display: block;
-    background:blue;
-    width: max-content;
-    height:25px;
-  }
+
+
+
+
 @-webkit-keyframes stripes {
   100% {
     background-position: 0 -50px;
   }
 }
+
 @keyframes stripes {
   100% {
     background-position: 0 -50px;
