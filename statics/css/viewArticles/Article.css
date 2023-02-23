@@ -11,6 +11,7 @@ section{
 .pieceDeLegoJauneVerticale{
     height: 325px;
 }
+
 .boutonLegoFlecheDroit{
     width: 70px;
 }
@@ -26,3 +27,4 @@ p{
     font-family: 'Noto Sans', sans-serif;
     color: black;
 }
+
