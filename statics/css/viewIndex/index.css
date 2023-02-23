@@ -42,7 +42,12 @@ main > section > p {
   font-size: 50pt;
   text-align: center;
 }
-
+.footer{
+    display: block;
+    background:blue;
+    width: max-content;
+    height:25px;
+  }
 @-webkit-keyframes stripes {
   100% {
     background-position: 0 -50px;
@@ -53,9 +58,4 @@ main > section > p {
     background-position: 0 -50px;
   }
 }
-.footer{
-    display: block;
-    background:blue;
-    width: max-content;
-    height:25px;
-  }
+
