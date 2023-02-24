@@ -3,13 +3,18 @@
   font-family: 'Noto Sans', sans-serif;
 }
 
+header {
+  width: 80%;
+  margin: 0;
+}
+
 header > section {
   background-color: white;
   background-image: url(https://www.ikea.com/ext/ingkadam/m/5834b9765023c162/original/PH175136.jpg?f=sg);
   background-repeat: no-repeat;
   background-size: 140%;
   background-position: center;
-  height: 250px;
+  height: 225px;
   padding: 55px 20px 0px 20px;
 }
   
@@ -40,8 +45,11 @@ header h2 {
   width: 50%;
 }
 
-
-
+main > section > img {
+  height: auto;
+  width: 50%;
+  margin: 0;
+}
 
 
 @-webkit-keyframes stripes {
@@ -56,3 +64,44 @@ header h2 {
   }
 }
 
+@media (min-width: 425px){
+  header{
+    width: 59%;   /* 59%*/
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  * {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 768px){
+  header{
+    width: 32%;
+    margin: 9px;
+    margin-top: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  * {
+    font-size: 10px;
+  }
+}
+
+@media screen {
+  header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  * {
+    font-size: 13px;
+  }
+  
+}
