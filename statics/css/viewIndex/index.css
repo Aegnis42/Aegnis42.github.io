@@ -56,8 +56,7 @@ section {
 }
 
 main > section > p {
-
-  font-size: 50pt;
+  font-size: 15vw;
   text-align: center;
 }
 footer{
@@ -68,10 +67,7 @@ footer{
   height: 10vw;
 }
 
-  font-family: 'Noto Sans', sans-serif;
-  font-size: 15pt;
-  text-align: center;
-}
+
 .bordurePage{
   display: flex;
   margin: 0;
