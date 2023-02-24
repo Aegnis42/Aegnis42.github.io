@@ -68,9 +68,8 @@ header > nav > img {
   margin: 4px 0;
 }
 
-@media (min-width: 425px){
+@media (max-width: 425px){
   .bigMenuBurger img {
-    height: auto;
     width: 5%;
     font-size: 10px;
   }
