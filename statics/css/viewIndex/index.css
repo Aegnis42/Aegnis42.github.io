@@ -1,11 +1,21 @@
+* {
+  margin: auto;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+header {
+  width: 80%;
+  margin: 0;
+}
+
 header > section {
-    background-color: white;
-    background-image: url(https://www.ikea.com/ext/ingkadam/m/5834b9765023c162/original/PH175136.jpg?f=sg);
-    background-repeat: no-repeat;
-    background-size: 140%;
-    background-position: center;
-    height: 250px;
-    padding: 55px 20px 0px 20px;
+  background-color: white;
+  background-image: url(https://www.ikea.com/ext/ingkadam/m/5834b9765023c162/original/PH175136.jpg?f=sg);
+  background-repeat: no-repeat;
+  background-size: 140%;
+  background-position: center;
+  height: 225px;
+  padding: 55px 20px 0px 20px;
 }
   
 header h1, header h2 {
@@ -30,14 +40,23 @@ header h2 {
   margin: 0;
 }
 
+#boutonjaune {
+  width: 100%;
+}
 section {
+  width: 100%;
   background-position: center;
   flex-wrap: nowrap;
-  margin-left: 380px;
-  gap: 1px;
+  margin-left: auto;
+  gap: 50px;
+}
+#presentationHautMain{
+  display: flex;
+  margin-top: 2.5vw;
 }
 
 main > section > p {
+
   font-size: 50pt;
   text-align: center;
 }
@@ -48,14 +67,80 @@ footer{
   width:190vw;
   height: 10vw;
 }
+
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 15pt;
+  text-align: center;
+}
+.bordurePage{
+  display: flex;
+  margin: 0;
+  flex-direction: column;
+  width: 8vw;
+  align-items: center;
+}
+.bordurePage img{
+  margin: 0;
+  height: auto;
+  width: 5vw;
+}
+#barreJauneLego{
+  margin-top: 5vw;
+
+}
+
+
+
 @-webkit-keyframes stripes {
   100% {
     background-position: 0 -50px;
   }
 }
+
 @keyframes stripes {
   100% {
     background-position: 0 -50px;
   }
 }
 
+@media (min-width: 425px){
+  header{
+    width: 59%;   /* 59%*/
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  * {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 768px){
+  header{
+    width: 32%;
+    margin: 9px;
+    margin-top: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  * {
+    font-size: 10px;
+  }
+}
+
+@media screen {
+  header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  * {
+    font-size: 13px;
+  }
+  
+}

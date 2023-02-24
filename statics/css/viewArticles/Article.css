@@ -1,5 +1,11 @@
 body{
     max-width: 1440px;
+    background-color: white;
+}
+#titreArticle{
+    width: 80vw;
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif;
 }
 section{
     flex-direction: column;
@@ -32,7 +38,6 @@ section{
 }
 a{
     text-decoration: none;
-
     color: black;
 }
 h4, .prix{
@@ -44,35 +49,45 @@ p{
     font-family: 'Noto Sans', sans-serif;
 }
 
+#button_deckstop{
+    display: none;
+    width: 12vw;
+    max-width: 80px;
+    margin: 0;
+}
 #meilleurs_vente{
     padding-left: 5%;
     padding-right: 5%;
 }
-#meilleurs_vente h3{
+#title_meilleurs_vente{
+    float: center;
     text-align: center;
+    background-color: #0058AB;
+    width: 200px;
+    color: #fff;
+    margin-top: 50px;
 }
 #meilleurs_vente > img{
     width: 12vw;
-    max-width: 125px;
+    max-width: 80px;
     margin: 0;
-
 }
 #meilleurs_vente article{
     display: flex;
     justify-content: space-between;
-    height: 46vh;
+    height: 50vh;
 }
 #meilleurs_vente article > img{
     height: 100vw;
     max-height: 45vh;
     width: 14vw;
-    max-width: 150px;
+    max-width: 80px;
     margin: 0px;
 }
 #meilleurs_vente > article a img{
     width: 100%;
     max-width: max-content;
-    max-height: 100%;
+    max-height: 80%;
 }
 #meilleurs_vente > article a{
     width: 75%;
@@ -80,22 +95,67 @@ p{
     font-family: sans-serif;
     text-decoration: none;
 }
-
-@media screen and (min-width: 900px ) {
+@media screen and (min-width: 1200px ) {
     article{
         display: flex;
         flex-direction: row;
-        width: 95vw;
+        height: 650px;
+    }
+    .pieceDeLegoVerticale{
+        padding-top: 20px;
+        height: 400px;
+        margin-right: 10px;
+    }
+    .pieceDeLegoRougeVerticale{
+        padding-top: 20px;
+        height: 400px;
+        margin-right: 10px;
+    }
+    .boutonLegoFlecheDroit{
+        margin-left: 10px;
+        padding-top: 50px;
+        width: 50px;
+    }
+    section a, .lesArticles{
+        width: 500px;
+        height: 460px;
+        margin-right: 200px;
+    }
+    section p{
+        width: 500px;
+    }
 }
 @media screen and (min-width : 1200px) {
-    #meilleurs_vente article{
+    #button_deckstop{
+        display: block;
+    }
+    #meilleurs_vente{
         display: flex;
-        justify-content: space-between;
-        height: 100vh;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        padding: 0px;
+    }
+    #meilleurs_vente article{
+        height: 50vh;
+        width: auto;
+        margin: 0px;
     }
     #meilleurs_vente > article a img{
         width: 100%;
         max-width: max-content;
-        max-height: 88%;
+        max-height:60%;
+    }
+    #meilleurs_vente > article a{
+        width: 300px;
+    }
+    #meilleurs_vente > article:first-of-type a{
+        margin-left: 50px;
+    }
+    #meilleurs_vente > article a p{
+        width: 100%;
+    }
+    #meilleurs_vente > img, #meilleurs_vente article:not(:first-of-type) > img{
+        display: none;
     }
 }
