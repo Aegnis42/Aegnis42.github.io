@@ -35,13 +35,26 @@ header h2 {
   margin: 0;
 }
 
+#boutonjaune {
+  width: 100%;
+section {
+
+  background-position: center;
+  flex-wrap: nowrap;
+  margin-left: auto;
+  gap: 50px;
+}
+
+main > section > p {
+  font-family: 'Noto+Sans';
+  font-size: 15pt;
+  text-align: center;
+}
+=======
 #boutonJaune img {
   height: auto;
   width: 50%;
 }
-
-
-
 
 
 @-webkit-keyframes stripes {
