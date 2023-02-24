@@ -1,31 +1,47 @@
+body{
+    max-width: 1440px;
+}
 section{
     flex-direction: column;
 }
 .presentationArticle{
     display: flex;
+    margin: 5vw 0;
+}
+.bordure{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
 }
 .lesArticles{
-    width: 320px;
-    height: 300px;
+    width: 70vw;
+    height: 60vw;
 }
-.pieceDeLegoJauneVerticale{
-    height: 325px;
+.pieceDeLegoVerticale{
+    height: 60vw;
+    margin-right: 2vw;
 }
-
+.pieceDeLegoRougeVerticale{
+    height: 60vw;
+    margin-right: 2vw;
+}
 .boutonLegoFlecheDroit{
-    width: 70px;
+    margin-left: 0.5vw;
+    width: 10vw;
 }
 a{
     text-decoration: none;
-}
-h4{
-    font-family: 'Noto Sans', sans-serif;
+
     color: black;
+}
+h4, .prix{
+    font-family: 'Noto Sans', sans-serif;
     font-weight: bolder;
 }
 p{
+    width: 70vw;
     font-family: 'Noto Sans', sans-serif;
-    color: black;
 }
 
 #meilleurs_vente{
@@ -34,11 +50,12 @@ p{
 }
 #meilleurs_vente h3{
     text-align: center;
-    margin-top: 5vh;
 }
 #meilleurs_vente > img{
     width: 12vw;
+    max-width: 125px;
     margin: 0;
+
 }
 #meilleurs_vente article{
     display: flex;
@@ -48,15 +65,37 @@ p{
 #meilleurs_vente article > img{
     height: 100vw;
     max-height: 45vh;
+    width: 14vw;
+    max-width: 150px;
     margin: 0px;
 }
 #meilleurs_vente > article a img{
     width: 100%;
+    max-width: max-content;
     max-height: 100%;
 }
 #meilleurs_vente > article a{
-    width: 70%;
+    width: 75%;
     margin: 0px;
     font-family: sans-serif;
     text-decoration: none;
+}
+
+@media screen and (min-width: 900px ) {
+    article{
+        display: flex;
+        flex-direction: row;
+        width: 95vw;
+}
+@media screen and (min-width : 1200px) {
+    #meilleurs_vente article{
+        display: flex;
+        justify-content: space-between;
+        height: 100vh;
+    }
+    #meilleurs_vente > article a img{
+        width: 100%;
+        max-width: max-content;
+        max-height: 88%;
+    }
 }
