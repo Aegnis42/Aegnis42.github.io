@@ -43,16 +43,23 @@ p{
     font-family: 'Noto Sans', sans-serif;
 }
 
+#button_deckstop{
+    display: none;
+    width: 12vw;
+    max-width: 80px;
+    margin: 0;
+}
 #meilleurs_vente{
     padding-left: 5%;
     padding-right: 5%;
 }
-#meilleurs_vente h3{
+#title_meilleurs_vente{
     float: center;
     text-align: center;
-    background-color: rgb(0, 213, 255);
-    width: 30vw;
+    background-color: #0058AB;
+    width: 200px;
     color: #fff;
+    margin-top: 50px;
 }
 #meilleurs_vente > img{
     width: 12vw;
@@ -105,15 +112,37 @@ p{
             margin-right: 250px;
         }
 }
-
 @media screen and (min-width : 1200px) {
-
+    #button_deckstop{
+        display: block;
+    }
+    #meilleurs_vente{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        padding: 0px;
+    }
     #meilleurs_vente article{
         height: 50vh;
+        width: auto;
+        margin: 0px;
     }
     #meilleurs_vente > article a img{
         width: 100%;
         max-width: max-content;
-        max-height: 80%;
+        max-height:60%;
+    }
+    #meilleurs_vente > article a{
+        width: 300px;
+    }
+    #meilleurs_vente > article:first-of-type a{
+        margin-left: 50px;
+    }
+    #meilleurs_vente > article a p{
+        width: 100%;
+    }
+    #meilleurs_vente > img, #meilleurs_vente article:not(:first-of-type) > img{
+        display: none;
     }
 }
