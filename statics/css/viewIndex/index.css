@@ -56,6 +56,18 @@ section {
 }
 
 main > section > p {
+
+  font-size: 50pt;
+  text-align: center;
+}
+footer{
+  background-image:url(/statics/assets/footer_lego_bleu.png);
+  background-size: 100vw  10vw;
+  background-repeat: no-repeat;
+  width:190vw;
+  height: 10vw;
+}
+
   font-family: 'Noto Sans', sans-serif;
   font-size: 15pt;
   text-align: center;
@@ -76,6 +88,7 @@ main > section > p {
   margin-top: 5vw;
 
 }
+
 
 
 @-webkit-keyframes stripes {
