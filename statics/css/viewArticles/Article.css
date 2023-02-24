@@ -1,5 +1,11 @@
 body{
     max-width: 1440px;
+    background-color: white;
+}
+#titreArticle{
+    width: 80vw;
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif;
 }
 section{
     flex-direction: column;
@@ -82,28 +88,35 @@ p{
     font-family: sans-serif;
     text-decoration: none;
 }
-@media screen and (min-width: 900px ) {
-        article{
-            display: flex;
-            flex-direction: row;
-        }
-        .pieceDeLegoVerticale{
-            height: 450px;
-            margin-right: 10px;
-        }
-        .pieceDeLegoRougeVerticale{
-            height: 450px;
-            margin-right: 10px;
-        }
-        .boutonLegoFlecheDroit{
-            margin-left: 10px;
-            width: 50px;
-        }
-        section a, .lesArticles{
-            width: 500px;
-            height: 460px;
-            margin-right: 250px;
-        }
+@media screen and (min-width: 1200px ) {
+    article{
+        display: flex;
+        flex-direction: row;
+        height: 650px;
+    }
+    .pieceDeLegoVerticale{
+        padding-top: 20px;
+        height: 400px;
+        margin-right: 10px;
+    }
+    .pieceDeLegoRougeVerticale{
+        padding-top: 20px;
+        height: 400px;
+        margin-right: 10px;
+    }
+    .boutonLegoFlecheDroit{
+        margin-left: 10px;
+        padding-top: 50px;
+        width: 50px;
+    }
+    section a, .lesArticles{
+        width: 500px;
+        height: 460px;
+        margin-right: 200px;
+    }
+    section p{
+        width: 500px;
+    }
 }
 
 @media screen and (min-width : 1200px) {
