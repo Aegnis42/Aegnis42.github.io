@@ -40,15 +40,41 @@ header h2 {
   margin: 0;
 }
 
-#boutonJaune img {
-  height: auto;
-  width: 50%;
+#boutonjaune {
+  width: 100%;
+}
+section {
+  width: 100%;
+  background-position: center;
+  flex-wrap: nowrap;
+  margin-left: auto;
+  gap: 50px;
+}
+#presentationHautMain{
+  display: flex;
+  margin-top: 2.5vw;
 }
 
-main > section > img {
-  height: auto;
-  width: 50%;
+main > section > p {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 15pt;
+  text-align: center;
+}
+.bordurePage{
+  display: flex;
   margin: 0;
+  flex-direction: column;
+  width: 8vw;
+  align-items: center;
+}
+.bordurePage img{
+  margin: 0;
+  height: auto;
+  width: 5vw;
+}
+#barreJauneLego{
+  margin-top: 5vw;
+
 }
 
 
