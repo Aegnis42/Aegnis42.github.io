@@ -38,16 +38,16 @@ section {
 }
 
 main > section > p {
-  font-family: 'Noto+Sans',
   font-size: 50pt;
   text-align: center;
 }
-.footer{
-    display: block;
-    background:blue;
-    width: max-content;
-    height:25px;
-  }
+footer{
+  background-image:url(/statics/assets/footer_lego_bleu.png);
+  background-size: 100vw  10vw;
+  background-repeat: no-repeat;
+  width:190vw;
+  height: 10vw;
+}
 @-webkit-keyframes stripes {
   100% {
     background-position: 0 -50px;
