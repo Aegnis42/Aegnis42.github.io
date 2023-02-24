@@ -1,5 +1,11 @@
 body{
     max-width: 1440px;
+    background-color: white;
+}
+#titreArticle{
+    width: 80vw;
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif;
 }
 section{
     flex-direction: column;
@@ -32,7 +38,6 @@ section{
 }
 a{
     text-decoration: none;
-
     color: black;
 }
 h4, .prix{
@@ -49,30 +54,33 @@ p{
     padding-right: 5%;
 }
 #meilleurs_vente h3{
+    float: center;
     text-align: center;
+    background-color: rgb(0, 213, 255);
+    width: 30vw;
+    color: #fff;
 }
 #meilleurs_vente > img{
     width: 12vw;
-    max-width: 125px;
+    max-width: 80px;
     margin: 0;
-
 }
 #meilleurs_vente article{
     display: flex;
     justify-content: space-between;
-    height: 46vh;
+    height: 50vh;
 }
 #meilleurs_vente article > img{
     height: 100vw;
     max-height: 45vh;
     width: 14vw;
-    max-width: 150px;
+    max-width: 80px;
     margin: 0px;
 }
 #meilleurs_vente > article a img{
     width: 100%;
     max-width: max-content;
-    max-height: 100%;
+    max-height: 80%;
 }
 #meilleurs_vente > article a{
     width: 75%;
@@ -80,22 +88,45 @@ p{
     font-family: sans-serif;
     text-decoration: none;
 }
-
-@media screen and (min-width: 900px ) {
+@media screen and (min-width: 1200px ) {
     article{
         display: flex;
         flex-direction: row;
-        width: 95vw;
+        height: 650px;
+    }
+    .pieceDeLegoVerticale{
+        padding-top: 20px;
+        height: 400px;
+        margin-right: 10px;
+    }
+    .pieceDeLegoRougeVerticale{
+        padding-top: 20px;
+        height: 400px;
+        margin-right: 10px;
+    }
+    .boutonLegoFlecheDroit{
+        margin-left: 10px;
+        padding-top: 50px;
+        width: 50px;
+    }
+    section a, .lesArticles{
+        width: 500px;
+        height: 460px;
+        margin-right: 200px;
+    }
+    section p{
+        width: 500px;
+    }
 }
+
 @media screen and (min-width : 1200px) {
+
     #meilleurs_vente article{
-        display: flex;
-        justify-content: space-between;
-        height: 100vh;
+        height: 50vh;
     }
     #meilleurs_vente > article a img{
         width: 100%;
         max-width: max-content;
-        max-height: 88%;
+        max-height: 80%;
     }
 }
